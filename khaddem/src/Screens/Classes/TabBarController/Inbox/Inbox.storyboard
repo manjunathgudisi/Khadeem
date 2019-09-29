@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="o5d-F2-5dh">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Black.ttf">
+            <string>Lato-Black</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Inbox-->
+        <scene sceneID="q2y-4k-bqr">
+            <objects>
+                <viewController storyboardIdentifier="InboxViewController" title="Inbox" id="o5d-F2-5dh" customClass="InboxViewController" customModule="khaddem" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="ikq-s4-5QM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lbI-sA-ZDs">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bsb-QL-eD3">
+                                        <rect key="frame" x="0.0" y="24" width="375" height="120"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-gift" translatesAutoresizingMaskIntoConstraints="NO" id="Gu0-6h-CgS">
+                                                <rect key="frame" x="157.5" y="24" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="QKj-94-pqc"/>
+                                                    <constraint firstAttribute="width" constant="60" id="Y3O-Hp-a5z"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Khadeem Messaging App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ogI-eK-Dom">
+                                                <rect key="frame" x="0.0" y="84" width="375" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="EU6-fq-Ree"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Lato-Black" family="Lato" pointSize="24"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="120" id="4Ew-81-q8b"/>
+                                            <constraint firstItem="ogI-eK-Dom" firstAttribute="leading" secondItem="Bsb-QL-eD3" secondAttribute="leading" id="Cxi-h8-8sK"/>
+                                            <constraint firstItem="ogI-eK-Dom" firstAttribute="top" secondItem="Gu0-6h-CgS" secondAttribute="bottom" id="Ml7-7k-bxB"/>
+                                            <constraint firstItem="Gu0-6h-CgS" firstAttribute="top" secondItem="Bsb-QL-eD3" secondAttribute="top" constant="24" id="YLN-ba-aGZ"/>
+                                            <constraint firstItem="Gu0-6h-CgS" firstAttribute="centerX" secondItem="Bsb-QL-eD3" secondAttribute="centerX" id="cp5-qP-NY8"/>
+                                            <constraint firstAttribute="trailing" secondItem="ogI-eK-Dom" secondAttribute="trailing" id="wYe-ln-77A"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="List of messages displayed here. It includes all types of messages like Text, Voice, Video and Avatar. " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kd2-mc-nU3">
+                                        <rect key="frame" x="8" y="152" width="359" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="PQG-ZR-dbl"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Lato-Black" family="Lato" pointSize="15"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="Bsb-QL-eD3" firstAttribute="leading" secondItem="lbI-sA-ZDs" secondAttribute="leading" id="8kG-cx-mcs"/>
+                                    <constraint firstAttribute="trailing" secondItem="Bsb-QL-eD3" secondAttribute="trailing" id="D25-Jg-wzt"/>
+                                    <constraint firstItem="Kd2-mc-nU3" firstAttribute="leading" secondItem="lbI-sA-ZDs" secondAttribute="leading" constant="8" id="FU1-5L-zbC"/>
+                                    <constraint firstItem="Kd2-mc-nU3" firstAttribute="top" secondItem="Bsb-QL-eD3" secondAttribute="bottom" constant="8" id="Ten-DV-tSN"/>
+                                    <constraint firstItem="Bsb-QL-eD3" firstAttribute="top" secondItem="lbI-sA-ZDs" secondAttribute="top" constant="24" id="hdQ-uH-vQx"/>
+                                    <constraint firstAttribute="trailing" secondItem="Kd2-mc-nU3" secondAttribute="trailing" constant="8" id="jiO-PR-3A6"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="lbI-sA-ZDs" firstAttribute="bottom" secondItem="qxn-tt-O2D" secondAttribute="bottom" id="Elk-0X-TMd"/>
+                            <constraint firstItem="lbI-sA-ZDs" firstAttribute="trailing" secondItem="qxn-tt-O2D" secondAttribute="trailing" id="Jcw-Kl-yCp"/>
+                            <constraint firstItem="lbI-sA-ZDs" firstAttribute="top" secondItem="ikq-s4-5QM" secondAttribute="top" id="jeN-Os-67z"/>
+                            <constraint firstItem="lbI-sA-ZDs" firstAttribute="leading" secondItem="qxn-tt-O2D" secondAttribute="leading" id="w6q-DL-Dgc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="qxn-tt-O2D"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cVT-PX-1ND"/>
+                    <connections>
+                        <outlet property="gradientUIView" destination="lbI-sA-ZDs" id="vhl-rn-MUw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5jK-Ws-Tx8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="421.60000000000002" y="46.326836581709152"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icons8-gift" width="50" height="50"/>
+    </resources>
+</document>
