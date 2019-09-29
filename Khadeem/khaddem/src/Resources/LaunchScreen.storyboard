@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Black.ttf">
+            <string>Lato-Black</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gVe-ud-BTx">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-gift" translatesAutoresizingMaskIntoConstraints="NO" id="Seu-4G-enV">
+                                <rect key="frame" x="157.5" y="303.5" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="K41-LX-fVZ"/>
+                                    <constraint firstAttribute="height" constant="60" id="sIZ-cn-ndB"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Khadeem Messaging App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ylc-Oi-m6n">
+                                <rect key="frame" x="0.0" y="371.5" width="375" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="c1C-CH-hA7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lato-Black" family="Lato" pointSize="24"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="Seu-4G-enV" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="6Qw-67-SQo"/>
+                            <constraint firstAttribute="trailing" secondItem="gVe-ud-BTx" secondAttribute="trailing" id="9jo-4J-qTE"/>
+                            <constraint firstAttribute="trailing" secondItem="Ylc-Oi-m6n" secondAttribute="trailing" id="fAC-VT-bkZ"/>
+                            <constraint firstItem="Ylc-Oi-m6n" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="izZ-fd-Yrk"/>
+                            <constraint firstItem="Ylc-Oi-m6n" firstAttribute="top" secondItem="Seu-4G-enV" secondAttribute="bottom" constant="8" id="jjl-Mt-ru1"/>
+                            <constraint firstItem="gVe-ud-BTx" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="l2H-vs-phn"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="gVe-ud-BTx" secondAttribute="bottom" id="oLL-LT-R9g"/>
+                            <constraint firstItem="Seu-4G-enV" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="uJ5-vU-LZr"/>
+                            <constraint firstItem="gVe-ud-BTx" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="x0x-Fl-fbw"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icons8-gift" width="50" height="50"/>
+    </resources>
+</document>

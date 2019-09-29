@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="UAC-m0-zrp">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Black.ttf">
+            <string>Lato-Black</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Profile-->
+        <scene sceneID="PUH-rL-KLj">
+            <objects>
+                <viewController storyboardIdentifier="ProfileViewController" title="Profile" id="UAC-m0-zrp" customClass="ProfileViewController" customModule="khaddem" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="1VL-1W-y3S">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RQ6-IR-gZC">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Um9-jK-73n">
+                                        <rect key="frame" x="0.0" y="24" width="375" height="120"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-gift" translatesAutoresizingMaskIntoConstraints="NO" id="wdf-4C-naf">
+                                                <rect key="frame" x="157.5" y="24" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="60" id="h9b-Zy-KRG"/>
+                                                    <constraint firstAttribute="height" constant="60" id="vIb-qg-7I2"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Khadeem Messaging App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dO9-0d-ldv">
+                                                <rect key="frame" x="0.0" y="84" width="375" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="YW3-Za-kvS"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Lato-Black" family="Lato" pointSize="24"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="120" id="44U-F7-9Nb"/>
+                                            <constraint firstItem="dO9-0d-ldv" firstAttribute="leading" secondItem="Um9-jK-73n" secondAttribute="leading" id="UI8-BD-BwT"/>
+                                            <constraint firstItem="dO9-0d-ldv" firstAttribute="top" secondItem="wdf-4C-naf" secondAttribute="bottom" id="cuz-kF-IEG"/>
+                                            <constraint firstItem="wdf-4C-naf" firstAttribute="top" secondItem="Um9-jK-73n" secondAttribute="top" constant="24" id="gq0-fd-ZkZ"/>
+                                            <constraint firstAttribute="trailing" secondItem="dO9-0d-ldv" secondAttribute="trailing" id="p69-tu-TJT"/>
+                                            <constraint firstItem="wdf-4C-naf" firstAttribute="centerX" secondItem="Um9-jK-73n" secondAttribute="centerX" id="qpf-jH-2fS"/>
+                                        </constraints>
+                                    </view>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-user" translatesAutoresizingMaskIntoConstraints="NO" id="yVV-rC-x3Q">
+                                        <rect key="frame" x="162.5" y="180" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="FPU-rd-Zdk"/>
+                                            <constraint firstAttribute="height" constant="50" id="Xhd-2J-VX0"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Narayan L" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M6t-rX-V8J">
+                                        <rect key="frame" x="8" y="238" width="359" height="36"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="36" id="sI2-zq-qS9"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Lato-Black" family="Lato" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xIy-bM-uao">
+                                        <rect key="frame" x="8" y="260" width="359" height="89"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="89" id="Nxr-TA-5Gb"/>
+                                        </constraints>
+                                        <string key="text">Bangalore, India
+abc@gmail.com
++91-9886xxxx82</string>
+                                        <fontDescription key="fontDescription" name="ArialHebrew" family="Arial Hebrew" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="Um9-jK-73n" firstAttribute="top" secondItem="RQ6-IR-gZC" secondAttribute="top" constant="24" id="9dO-ww-uXa"/>
+                                    <constraint firstAttribute="trailing" secondItem="Um9-jK-73n" secondAttribute="trailing" id="Crf-HI-0f2"/>
+                                    <constraint firstItem="yVV-rC-x3Q" firstAttribute="centerX" secondItem="RQ6-IR-gZC" secondAttribute="centerX" id="GKG-tn-xpi"/>
+                                    <constraint firstAttribute="trailing" secondItem="xIy-bM-uao" secondAttribute="trailing" constant="8" id="Gvp-p2-BeT"/>
+                                    <constraint firstItem="yVV-rC-x3Q" firstAttribute="top" secondItem="Um9-jK-73n" secondAttribute="bottom" constant="36" id="amb-0u-qZI"/>
+                                    <constraint firstItem="M6t-rX-V8J" firstAttribute="top" secondItem="yVV-rC-x3Q" secondAttribute="bottom" constant="8" id="iQc-eg-zAH"/>
+                                    <constraint firstItem="xIy-bM-uao" firstAttribute="top" secondItem="yVV-rC-x3Q" secondAttribute="bottom" constant="30" id="mPN-TK-2xv"/>
+                                    <constraint firstItem="xIy-bM-uao" firstAttribute="leading" secondItem="RQ6-IR-gZC" secondAttribute="leading" constant="8" id="ohK-Ft-0HF"/>
+                                    <constraint firstAttribute="trailing" secondItem="M6t-rX-V8J" secondAttribute="trailing" constant="8" id="vx7-8z-aQe"/>
+                                    <constraint firstItem="M6t-rX-V8J" firstAttribute="leading" secondItem="RQ6-IR-gZC" secondAttribute="leading" constant="8" id="xPS-uO-Bd6"/>
+                                    <constraint firstItem="Um9-jK-73n" firstAttribute="leading" secondItem="RQ6-IR-gZC" secondAttribute="leading" id="zIR-U2-qCx"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="RQ6-IR-gZC" firstAttribute="leading" secondItem="K3O-Ze-AHb" secondAttribute="leading" id="7Uc-ro-Oi4"/>
+                            <constraint firstItem="RQ6-IR-gZC" firstAttribute="top" secondItem="1VL-1W-y3S" secondAttribute="top" id="OeD-f0-d0i"/>
+                            <constraint firstItem="RQ6-IR-gZC" firstAttribute="bottom" secondItem="K3O-Ze-AHb" secondAttribute="bottom" id="X58-fC-xaz"/>
+                            <constraint firstItem="RQ6-IR-gZC" firstAttribute="trailing" secondItem="K3O-Ze-AHb" secondAttribute="trailing" id="n1k-tw-yBK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="K3O-Ze-AHb"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="q8k-m4-Bup"/>
+                    <connections>
+                        <outlet property="gradientUIView" destination="RQ6-IR-gZC" id="Jzc-PG-adU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xaE-56-hZ4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="421.60000000000002" y="46.326836581709152"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icons8-gift" width="50" height="50"/>
+        <image name="icons8-user" width="50" height="50"/>
+    </resources>
+</document>
