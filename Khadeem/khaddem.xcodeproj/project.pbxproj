@@ -416,9 +416,9 @@
 		5E86CE752341239C0043AA78 /* LoginResponse */ = {
 			isa = PBXGroup;
 			children = (
+				5E86CE782341239C0043AA78 /* LoginResponse.swift */,
 				5E86CE762341239C0043AA78 /* LoginUser.swift */,
 				5E86CE772341239C0043AA78 /* LoginRole.swift */,
-				5E86CE782341239C0043AA78 /* LoginResponse.swift */,
 			);
 			path = LoginResponse;
 			sourceTree = "<group>";
