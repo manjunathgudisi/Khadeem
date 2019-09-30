@@ -12,18 +12,35 @@ For support, please feel free to contact me at https://www.linkedin.com/in/syeda
 */
 
 import Foundation
-struct PlaceOrderResponse : Codable {
-
-	let status : Int?
+struct LoginRole : Codable {
+	let _id : String?
+	let name : String?
+	let description : String?
+	let normalized : String?
+	let isAdmin : Bool?
+	let isAgent : Bool?
+	let id : String?
 
 	enum CodingKeys: String, CodingKey {
 
-		case status = "status"
+		case _id = "_id"
+		case name = "name"
+		case description = "description"
+		case normalized = "normalized"
+		case isAdmin = "isAdmin"
+		case isAgent = "isAgent"
+		case id = "id"
 	}
 
 	init(from decoder: Decoder) throws {
 		let values = try decoder.container(keyedBy: CodingKeys.self)
-		status = try values.decodeIfPresent(Int.self, forKey: .status)
+		_id = try values.decodeIfPresent(String.self, forKey: ._id)
+		name = try values.decodeIfPresent(String.self, forKey: .name)
+		description = try values.decodeIfPresent(String.self, forKey: .description)
+		normalized = try values.decodeIfPresent(String.self, forKey: .normalized)
+		isAdmin = try values.decodeIfPresent(Bool.self, forKey: .isAdmin)
+		isAgent = try values.decodeIfPresent(Bool.self, forKey: .isAgent)
+		id = try values.decodeIfPresent(String.self, forKey: .id)
 	}
 
 }

@@ -58,39 +58,24 @@
 		5E4DF53723046165005EC801 /* VoiceMessageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4DF53623046165005EC801 /* VoiceMessageCollectionViewCell.swift */; };
 		5E4DF539230468C2005EC801 /* VideoMessageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4DF538230468C2005EC801 /* VideoMessageCollectionViewCell.swift */; };
 		5E4DF53B230468CF005EC801 /* AvatarMessageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4DF53A230468CF005EC801 /* AvatarMessageCollectionViewCell.swift */; };
+		5E86CE792341239C0043AA78 /* LoginUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86CE762341239C0043AA78 /* LoginUser.swift */; };
+		5E86CE7A2341239C0043AA78 /* LoginRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86CE772341239C0043AA78 /* LoginRole.swift */; };
+		5E86CE7B2341239C0043AA78 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86CE782341239C0043AA78 /* LoginResponse.swift */; };
+		5E86CE812341259B0043AA78 /* GetGroupAllRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86CE7D2341259B0043AA78 /* GetGroupAllRole.swift */; };
+		5E86CE822341259B0043AA78 /* GetGroupAllMembers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86CE7E2341259B0043AA78 /* GetGroupAllMembers.swift */; };
+		5E86CE832341259B0043AA78 /* GetGroupAllResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86CE7F2341259B0043AA78 /* GetGroupAllResponse.swift */; };
+		5E86CE842341259B0043AA78 /* GetGroupAllGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86CE802341259B0043AA78 /* GetGroupAllGroups.swift */; };
 		5E98E3992302A11A002874AB /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E98E3982302A11A002874AB /* HomeCollectionViewCell.swift */; };
 		5E98E39C2302B272002874AB /* Department.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E98E39B2302B272002874AB /* Department.storyboard */; };
 		5E98E39E2302B287002874AB /* DepartmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E98E39D2302B287002874AB /* DepartmentViewController.swift */; };
 		5E98E3A02302C6ED002874AB /* DepartmentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E98E39F2302C6ED002874AB /* DepartmentCollectionViewCell.swift */; };
 		5E9EB4DB23012BFC0041973E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EB49023012BFC0041973E /* ViewController.swift */; };
 		5E9EB4E023012BFC0041973E /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EB49723012BFC0041973E /* CoreDataManager.swift */; };
-		5E9EB4E423012BFC0041973E /* GetFarmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EB49E23012BFC0041973E /* GetFarmer.swift */; };
-		5E9EB4E523012BFC0041973E /* GetFarmerWebAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EB49F23012BFC0041973E /* GetFarmerWebAPI.swift */; };
-		5E9EB4E623012BFC0041973E /* GetFarmerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EB4A023012BFC0041973E /* GetFarmerResponse.swift */; };
-		5E9EB4E723012BFC0041973E /* SetIOTDataWebAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EB4A223012BFC0041973E /* SetIOTDataWebAPI.swift */; };
-		5E9EB4E823012BFC0041973E /* SetIOTDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EB4A323012BFC0041973E /* SetIOTDataResponse.swift */; };
-		5E9EB4E923012BFC0041973E /* GetMilestone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EB4A523012BFC0041973E /* GetMilestone.swift */; };
-		5E9EB4EA23012BFC0041973E /* GetMilestoneResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EB4A623012BFC0041973E /* GetMilestoneResponse.swift */; };
-		5E9EB4EB23012BFC0041973E /* GetMilestoneWebAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EB4A723012BFC0041973E /* GetMilestoneWebAPI.swift */; };
-		5E9EB4EC23012BFC0041973E /* PlaceOrderWebAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EB4A923012BFC0041973E /* PlaceOrderWebAPI.swift */; };
-		5E9EB4ED23012BFC0041973E /* PlaceOrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EB4AA23012BFC0041973E /* PlaceOrderResponse.swift */; };
-		5E9EB4EE23012BFC0041973E /* GetOrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EB4AC23012BFC0041973E /* GetOrderResponse.swift */; };
-		5E9EB4EF23012BFC0041973E /* GetOrders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EB4AD23012BFC0041973E /* GetOrders.swift */; };
-		5E9EB4F023012BFC0041973E /* GetOrderWebAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EB4AE23012BFC0041973E /* GetOrderWebAPI.swift */; };
 		5E9EB4F123012BFC0041973E /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EB4AF23012BFC0041973E /* PersistenceService.swift */; };
-		5E9EB4F223012BFC0041973E /* RegisterWebAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EB4B123012BFC0041973E /* RegisterWebAPI.swift */; };
-		5E9EB4F323012BFC0041973E /* RegisterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EB4B223012BFC0041973E /* RegisterResponse.swift */; };
-		5E9EB4F423012BFC0041973E /* RegisterWithCoredata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EB4B323012BFC0041973E /* RegisterWithCoredata.swift */; };
 		5E9EB4F523012BFC0041973E /* SharedInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EB4B423012BFC0041973E /* SharedInformation.swift */; };
-		5E9EB4F623012BFC0041973E /* SetMilestoneWebAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EB4B623012BFC0041973E /* SetMilestoneWebAPI.swift */; };
-		5E9EB4F723012BFC0041973E /* SetMilestoneResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EB4B723012BFC0041973E /* SetMilestoneResponse.swift */; };
-		5E9EB4F823012BFC0041973E /* UserOfLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EB4B923012BFC0041973E /* UserOfLogin.swift */; };
-		5E9EB4F923012BFC0041973E /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EB4BA23012BFC0041973E /* LoginResponse.swift */; };
 		5E9EB4FA23012BFC0041973E /* LoginWebAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EB4BB23012BFC0041973E /* LoginWebAPI.swift */; };
 		5E9EB4FB23012BFC0041973E /* BusyIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EB4BC23012BFC0041973E /* BusyIndicator.swift */; };
-		5E9EB4FC23012BFC0041973E /* GetIOTDataWebAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EB4BE23012BFC0041973E /* GetIOTDataWebAPI.swift */; };
-		5E9EB4FD23012BFC0041973E /* GetIOTDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EB4BF23012BFC0041973E /* GetIOTDataResponse.swift */; };
-		5E9EB4FE23012BFC0041973E /* Iotdata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EB4C023012BFC0041973E /* Iotdata.swift */; };
+		5E9EB4FC23012BFC0041973E /* GetGroupAllWebAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EB4BE23012BFC0041973E /* GetGroupAllWebAPI.swift */; };
 		5E9EB4FF23012BFC0041973E /* APIInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EB4C123012BFC0041973E /* APIInterface.swift */; };
 		5E9EB51223012BFC0041973E /* DesignableSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EB4D723012BFC0041973E /* DesignableSlider.swift */; };
 		5E9EB51323012BFC0041973E /* ParentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EB4D823012BFC0041973E /* ParentVC.swift */; };
@@ -155,39 +140,24 @@
 		5E4DF53623046165005EC801 /* VoiceMessageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceMessageCollectionViewCell.swift; sourceTree = "<group>"; };
 		5E4DF538230468C2005EC801 /* VideoMessageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoMessageCollectionViewCell.swift; sourceTree = "<group>"; };
 		5E4DF53A230468CF005EC801 /* AvatarMessageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarMessageCollectionViewCell.swift; sourceTree = "<group>"; };
+		5E86CE762341239C0043AA78 /* LoginUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginUser.swift; sourceTree = "<group>"; };
+		5E86CE772341239C0043AA78 /* LoginRole.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRole.swift; sourceTree = "<group>"; };
+		5E86CE782341239C0043AA78 /* LoginResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		5E86CE7D2341259B0043AA78 /* GetGroupAllRole.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetGroupAllRole.swift; sourceTree = "<group>"; };
+		5E86CE7E2341259B0043AA78 /* GetGroupAllMembers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetGroupAllMembers.swift; sourceTree = "<group>"; };
+		5E86CE7F2341259B0043AA78 /* GetGroupAllResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetGroupAllResponse.swift; sourceTree = "<group>"; };
+		5E86CE802341259B0043AA78 /* GetGroupAllGroups.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetGroupAllGroups.swift; sourceTree = "<group>"; };
 		5E98E3982302A11A002874AB /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		5E98E39B2302B272002874AB /* Department.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Department.storyboard; sourceTree = "<group>"; };
 		5E98E39D2302B287002874AB /* DepartmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentViewController.swift; sourceTree = "<group>"; };
 		5E98E39F2302C6ED002874AB /* DepartmentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentCollectionViewCell.swift; sourceTree = "<group>"; };
 		5E9EB49023012BFC0041973E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5E9EB49723012BFC0041973E /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
-		5E9EB49E23012BFC0041973E /* GetFarmer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetFarmer.swift; sourceTree = "<group>"; };
-		5E9EB49F23012BFC0041973E /* GetFarmerWebAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetFarmerWebAPI.swift; sourceTree = "<group>"; };
-		5E9EB4A023012BFC0041973E /* GetFarmerResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetFarmerResponse.swift; sourceTree = "<group>"; };
-		5E9EB4A223012BFC0041973E /* SetIOTDataWebAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetIOTDataWebAPI.swift; sourceTree = "<group>"; };
-		5E9EB4A323012BFC0041973E /* SetIOTDataResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetIOTDataResponse.swift; sourceTree = "<group>"; };
-		5E9EB4A523012BFC0041973E /* GetMilestone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetMilestone.swift; sourceTree = "<group>"; };
-		5E9EB4A623012BFC0041973E /* GetMilestoneResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetMilestoneResponse.swift; sourceTree = "<group>"; };
-		5E9EB4A723012BFC0041973E /* GetMilestoneWebAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetMilestoneWebAPI.swift; sourceTree = "<group>"; };
-		5E9EB4A923012BFC0041973E /* PlaceOrderWebAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceOrderWebAPI.swift; sourceTree = "<group>"; };
-		5E9EB4AA23012BFC0041973E /* PlaceOrderResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceOrderResponse.swift; sourceTree = "<group>"; };
-		5E9EB4AC23012BFC0041973E /* GetOrderResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetOrderResponse.swift; sourceTree = "<group>"; };
-		5E9EB4AD23012BFC0041973E /* GetOrders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetOrders.swift; sourceTree = "<group>"; };
-		5E9EB4AE23012BFC0041973E /* GetOrderWebAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetOrderWebAPI.swift; sourceTree = "<group>"; };
 		5E9EB4AF23012BFC0041973E /* PersistenceService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
-		5E9EB4B123012BFC0041973E /* RegisterWebAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterWebAPI.swift; sourceTree = "<group>"; };
-		5E9EB4B223012BFC0041973E /* RegisterResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterResponse.swift; sourceTree = "<group>"; };
-		5E9EB4B323012BFC0041973E /* RegisterWithCoredata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterWithCoredata.swift; sourceTree = "<group>"; };
 		5E9EB4B423012BFC0041973E /* SharedInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedInformation.swift; sourceTree = "<group>"; };
-		5E9EB4B623012BFC0041973E /* SetMilestoneWebAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetMilestoneWebAPI.swift; sourceTree = "<group>"; };
-		5E9EB4B723012BFC0041973E /* SetMilestoneResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetMilestoneResponse.swift; sourceTree = "<group>"; };
-		5E9EB4B923012BFC0041973E /* UserOfLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserOfLogin.swift; sourceTree = "<group>"; };
-		5E9EB4BA23012BFC0041973E /* LoginResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
 		5E9EB4BB23012BFC0041973E /* LoginWebAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginWebAPI.swift; sourceTree = "<group>"; };
 		5E9EB4BC23012BFC0041973E /* BusyIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusyIndicator.swift; sourceTree = "<group>"; };
-		5E9EB4BE23012BFC0041973E /* GetIOTDataWebAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetIOTDataWebAPI.swift; sourceTree = "<group>"; };
-		5E9EB4BF23012BFC0041973E /* GetIOTDataResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetIOTDataResponse.swift; sourceTree = "<group>"; };
-		5E9EB4C023012BFC0041973E /* Iotdata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Iotdata.swift; sourceTree = "<group>"; };
+		5E9EB4BE23012BFC0041973E /* GetGroupAllWebAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetGroupAllWebAPI.swift; sourceTree = "<group>"; };
 		5E9EB4C123012BFC0041973E /* APIInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIInterface.swift; sourceTree = "<group>"; };
 		5E9EB4D723012BFC0041973E /* DesignableSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableSlider.swift; sourceTree = "<group>"; };
 		5E9EB4D823012BFC0041973E /* ParentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentVC.swift; sourceTree = "<group>"; };
@@ -443,6 +413,27 @@
 			path = NewMessage;
 			sourceTree = "<group>";
 		};
+		5E86CE752341239C0043AA78 /* LoginResponse */ = {
+			isa = PBXGroup;
+			children = (
+				5E86CE762341239C0043AA78 /* LoginUser.swift */,
+				5E86CE772341239C0043AA78 /* LoginRole.swift */,
+				5E86CE782341239C0043AA78 /* LoginResponse.swift */,
+			);
+			path = LoginResponse;
+			sourceTree = "<group>";
+		};
+		5E86CE7C2341259B0043AA78 /* GetGroupAllResponse */ = {
+			isa = PBXGroup;
+			children = (
+				5E86CE7F2341259B0043AA78 /* GetGroupAllResponse.swift */,
+				5E86CE7D2341259B0043AA78 /* GetGroupAllRole.swift */,
+				5E86CE7E2341259B0043AA78 /* GetGroupAllMembers.swift */,
+				5E86CE802341259B0043AA78 /* GetGroupAllGroups.swift */,
+			);
+			path = GetGroupAllResponse;
+			sourceTree = "<group>";
+		};
 		5E98E39A2302B25C002874AB /* Department */ = {
 			isa = PBXGroup;
 			children = (
@@ -509,108 +500,32 @@
 		5E9EB49C23012BFC0041973E /* APIConfig */ = {
 			isa = PBXGroup;
 			children = (
-				5E9EB49D23012BFC0041973E /* GetFarmerWebAPIWebAPI&Response */,
-				5E9EB4A123012BFC0041973E /* SetIOTDataWebAPI&Response */,
-				5E9EB4A423012BFC0041973E /* GetMilestoneWebAPIWebAPI&Response */,
-				5E9EB4A823012BFC0041973E /* PlaceOrderWebAPI&Response */,
-				5E9EB4AB23012BFC0041973E /* GetOrderWebAPI&Response */,
-				5E9EB4AF23012BFC0041973E /* PersistenceService.swift */,
-				5E9EB4B023012BFC0041973E /* RegisterWebAPI&Response */,
-				5E9EB4B423012BFC0041973E /* SharedInformation.swift */,
-				5E9EB4B523012BFC0041973E /* SetMilestoneWebAPI&Response */,
-				5E9EB4B823012BFC0041973E /* LoginWebAPI&Response */,
-				5E9EB4BC23012BFC0041973E /* BusyIndicator.swift */,
-				5E9EB4BD23012BFC0041973E /* GetIOTDataWebAPI&Response */,
 				5E9EB4C123012BFC0041973E /* APIInterface.swift */,
+				5E9EB4B423012BFC0041973E /* SharedInformation.swift */,
+				5E9EB4BC23012BFC0041973E /* BusyIndicator.swift */,
+				5E9EB4AF23012BFC0041973E /* PersistenceService.swift */,
+				5E9EB4B823012BFC0041973E /* LoginWebAPI&Response */,
+				5E9EB4BD23012BFC0041973E /* GetGroupAllWebAPI&Response */,
 			);
 			path = APIConfig;
-			sourceTree = "<group>";
-		};
-		5E9EB49D23012BFC0041973E /* GetFarmerWebAPIWebAPI&Response */ = {
-			isa = PBXGroup;
-			children = (
-				5E9EB49E23012BFC0041973E /* GetFarmer.swift */,
-				5E9EB49F23012BFC0041973E /* GetFarmerWebAPI.swift */,
-				5E9EB4A023012BFC0041973E /* GetFarmerResponse.swift */,
-			);
-			path = "GetFarmerWebAPIWebAPI&Response";
-			sourceTree = "<group>";
-		};
-		5E9EB4A123012BFC0041973E /* SetIOTDataWebAPI&Response */ = {
-			isa = PBXGroup;
-			children = (
-				5E9EB4A223012BFC0041973E /* SetIOTDataWebAPI.swift */,
-				5E9EB4A323012BFC0041973E /* SetIOTDataResponse.swift */,
-			);
-			path = "SetIOTDataWebAPI&Response";
-			sourceTree = "<group>";
-		};
-		5E9EB4A423012BFC0041973E /* GetMilestoneWebAPIWebAPI&Response */ = {
-			isa = PBXGroup;
-			children = (
-				5E9EB4A523012BFC0041973E /* GetMilestone.swift */,
-				5E9EB4A623012BFC0041973E /* GetMilestoneResponse.swift */,
-				5E9EB4A723012BFC0041973E /* GetMilestoneWebAPI.swift */,
-			);
-			path = "GetMilestoneWebAPIWebAPI&Response";
-			sourceTree = "<group>";
-		};
-		5E9EB4A823012BFC0041973E /* PlaceOrderWebAPI&Response */ = {
-			isa = PBXGroup;
-			children = (
-				5E9EB4A923012BFC0041973E /* PlaceOrderWebAPI.swift */,
-				5E9EB4AA23012BFC0041973E /* PlaceOrderResponse.swift */,
-			);
-			path = "PlaceOrderWebAPI&Response";
-			sourceTree = "<group>";
-		};
-		5E9EB4AB23012BFC0041973E /* GetOrderWebAPI&Response */ = {
-			isa = PBXGroup;
-			children = (
-				5E9EB4AC23012BFC0041973E /* GetOrderResponse.swift */,
-				5E9EB4AD23012BFC0041973E /* GetOrders.swift */,
-				5E9EB4AE23012BFC0041973E /* GetOrderWebAPI.swift */,
-			);
-			path = "GetOrderWebAPI&Response";
-			sourceTree = "<group>";
-		};
-		5E9EB4B023012BFC0041973E /* RegisterWebAPI&Response */ = {
-			isa = PBXGroup;
-			children = (
-				5E9EB4B123012BFC0041973E /* RegisterWebAPI.swift */,
-				5E9EB4B223012BFC0041973E /* RegisterResponse.swift */,
-				5E9EB4B323012BFC0041973E /* RegisterWithCoredata.swift */,
-			);
-			path = "RegisterWebAPI&Response";
-			sourceTree = "<group>";
-		};
-		5E9EB4B523012BFC0041973E /* SetMilestoneWebAPI&Response */ = {
-			isa = PBXGroup;
-			children = (
-				5E9EB4B623012BFC0041973E /* SetMilestoneWebAPI.swift */,
-				5E9EB4B723012BFC0041973E /* SetMilestoneResponse.swift */,
-			);
-			path = "SetMilestoneWebAPI&Response";
 			sourceTree = "<group>";
 		};
 		5E9EB4B823012BFC0041973E /* LoginWebAPI&Response */ = {
 			isa = PBXGroup;
 			children = (
-				5E9EB4B923012BFC0041973E /* UserOfLogin.swift */,
-				5E9EB4BA23012BFC0041973E /* LoginResponse.swift */,
 				5E9EB4BB23012BFC0041973E /* LoginWebAPI.swift */,
+				5E86CE752341239C0043AA78 /* LoginResponse */,
 			);
 			path = "LoginWebAPI&Response";
 			sourceTree = "<group>";
 		};
-		5E9EB4BD23012BFC0041973E /* GetIOTDataWebAPI&Response */ = {
+		5E9EB4BD23012BFC0041973E /* GetGroupAllWebAPI&Response */ = {
 			isa = PBXGroup;
 			children = (
-				5E9EB4BE23012BFC0041973E /* GetIOTDataWebAPI.swift */,
-				5E9EB4BF23012BFC0041973E /* GetIOTDataResponse.swift */,
-				5E9EB4C023012BFC0041973E /* Iotdata.swift */,
+				5E9EB4BE23012BFC0041973E /* GetGroupAllWebAPI.swift */,
+				5E86CE7C2341259B0043AA78 /* GetGroupAllResponse */,
 			);
-			path = "GetIOTDataWebAPI&Response";
+			path = "GetGroupAllWebAPI&Response";
 			sourceTree = "<group>";
 		};
 		5E9EB4D623012BFC0041973E /* Animations */ = {
@@ -763,75 +678,60 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E464B092301449A006A08DE /* LoginViewController.swift in Sources */,
-				5E9EB4E623012BFC0041973E /* GetFarmerResponse.swift in Sources */,
-				5E9EB4E923012BFC0041973E /* GetMilestone.swift in Sources */,
 				272C6D78230B05C60002CC4C /* CoreGraphicsExtensions.swift in Sources */,
-				5E9EB4EE23012BFC0041973E /* GetOrderResponse.swift in Sources */,
-				5E9EB4EB23012BFC0041973E /* GetMilestoneWebAPI.swift in Sources */,
 				5E9EB51423012BFC0041973E /* Animations.swift in Sources */,
 				5E98E3A02302C6ED002874AB /* DepartmentCollectionViewCell.swift in Sources */,
-				5E9EB4FE23012BFC0041973E /* Iotdata.swift in Sources */,
-				5E9EB4EA23012BFC0041973E /* GetMilestoneResponse.swift in Sources */,
+				5E86CE812341259B0043AA78 /* GetGroupAllRole.swift in Sources */,
 				5E1D95C22300033E0011FB96 /* khaddem.xcdatamodeld in Sources */,
 				279848A023154570003B2CC9 /* ArrayChoiceTableViewController.swift in Sources */,
 				5E9EB4DB23012BFC0041973E /* ViewController.swift in Sources */,
-				5E9EB4F423012BFC0041973E /* RegisterWithCoredata.swift in Sources */,
 				27528AD023080C0D00BC1505 /* EmojiBlingViewController.swift in Sources */,
 				5E464BAB2301F84E006A08DE /* InboxViewController.swift in Sources */,
 				279848A123154570003B2CC9 /* AlwaysShowPopup.swift in Sources */,
 				272C6D71230B04F90002CC4C /* FaceView.swift in Sources */,
-				5E9EB4F623012BFC0041973E /* SetMilestoneWebAPI.swift in Sources */,
+				5E86CE7A2341239C0043AA78 /* LoginRole.swift in Sources */,
 				5E464B3123016DAD006A08DE /* UIViewShadowExtension.swift in Sources */,
-				5E9EB4E823012BFC0041973E /* SetIOTDataResponse.swift in Sources */,
 				5E464B2B23016C01006A08DE /* SignUpViewController.swift in Sources */,
 				5E464B072301449A006A08DE /* ForgotViewController.swift in Sources */,
-				5E9EB4F023012BFC0041973E /* GetOrderWebAPI.swift in Sources */,
 				5E464BAA2301F84E006A08DE /* HomeViewController.swift in Sources */,
-				5E9EB4F223012BFC0041973E /* RegisterWebAPI.swift in Sources */,
 				5E9EB4F523012BFC0041973E /* SharedInformation.swift in Sources */,
 				272C6D77230B05C60002CC4C /* UIViewExtension.swift in Sources */,
 				5E464BB32301F8F0006A08DE /* ProfileViewController.swift in Sources */,
-				5E9EB4F323012BFC0041973E /* RegisterResponse.swift in Sources */,
 				5E9EB4FF23012BFC0041973E /* APIInterface.swift in Sources */,
-				5E9EB4E523012BFC0041973E /* GetFarmerWebAPI.swift in Sources */,
 				5E9EB4F123012BFC0041973E /* PersistenceService.swift in Sources */,
 				5E4DF53723046165005EC801 /* VoiceMessageCollectionViewCell.swift in Sources */,
-				5E9EB4E423012BFC0041973E /* GetFarmer.swift in Sources */,
 				5E4DF53B230468CF005EC801 /* AvatarMessageCollectionViewCell.swift in Sources */,
 				279848A32315457D003B2CC9 /* Utilities.swift in Sources */,
+				5E86CE7B2341239C0043AA78 /* LoginResponse.swift in Sources */,
+				5E86CE832341259B0043AA78 /* GetGroupAllResponse.swift in Sources */,
+				5E86CE822341259B0043AA78 /* GetGroupAllMembers.swift in Sources */,
 				5E2911D72303F39F000944F1 /* VideoMessageViewController.swift in Sources */,
 				272C6D6F230B04F90002CC4C /* FaceDetectionViewController.swift in Sources */,
-				5E9EB4ED23012BFC0041973E /* PlaceOrderResponse.swift in Sources */,
 				5E2911D92303F3AB000944F1 /* VoiceMessageViewController.swift in Sources */,
 				5E464B3323016DAD006A08DE /* TextfeildExtension.swift in Sources */,
+				5E86CE842341259B0043AA78 /* GetGroupAllGroups.swift in Sources */,
 				5E464B3A23016F59006A08DE /* BaseViewController.swift in Sources */,
 				5E98E3992302A11A002874AB /* HomeCollectionViewCell.swift in Sources */,
-				5E9EB4EF23012BFC0041973E /* GetOrders.swift in Sources */,
 				5E2911C32303E7FB000944F1 /* NewMessageCollectionViewCell.swift in Sources */,
-				5E9EB4FC23012BFC0041973E /* GetIOTDataWebAPI.swift in Sources */,
+				5E9EB4FC23012BFC0041973E /* GetGroupAllWebAPI.swift in Sources */,
 				5E9EB4E023012BFC0041973E /* CoreDataManager.swift in Sources */,
 				5E9EB4FB23012BFC0041973E /* BusyIndicator.swift in Sources */,
-				5E9EB4F723012BFC0041973E /* SetMilestoneResponse.swift in Sources */,
 				5E464B3223016DAD006A08DE /* StringExtension.swift in Sources */,
-				5E9EB4EC23012BFC0041973E /* PlaceOrderWebAPI.swift in Sources */,
-				5E9EB4F923012BFC0041973E /* LoginResponse.swift in Sources */,
 				2798489C231544D6003B2CC9 /* PickerViewController.swift in Sources */,
 				5E98E39E2302B287002874AB /* DepartmentViewController.swift in Sources */,
 				5E1D95BA2300033E0011FB96 /* AppDelegate.swift in Sources */,
 				5E464B3423016DAD006A08DE /* DoubleExtension.swift in Sources */,
 				5E9EB51323012BFC0041973E /* ParentVC.swift in Sources */,
-				5E9EB4F823012BFC0041973E /* UserOfLogin.swift in Sources */,
 				5E464BB72301F923006A08DE /* TabBarViewController.swift in Sources */,
 				5E4DF539230468C2005EC801 /* VideoMessageCollectionViewCell.swift in Sources */,
 				5E9EB4FA23012BFC0041973E /* LoginWebAPI.swift in Sources */,
 				5E9EB51523012BFC0041973E /* iOSDevCenters+GIF.swift in Sources */,
 				5E2911C52303EAFF000944F1 /* UtilitiesViewController.swift in Sources */,
-				5E9EB4FD23012BFC0041973E /* GetIOTDataResponse.swift in Sources */,
 				5E2911DB2303F3B5000944F1 /* TextMessageViewController.swift in Sources */,
+				5E86CE792341239C0043AA78 /* LoginUser.swift in Sources */,
 				5E2911D52303F394000944F1 /* AvatarMessageViewController.swift in Sources */,
 				272C6D70230B04F90002CC4C /* LaserView.swift in Sources */,
 				5E9EB51223012BFC0041973E /* DesignableSlider.swift in Sources */,
-				5E9EB4E723012BFC0041973E /* SetIOTDataWebAPI.swift in Sources */,
 				5E464BB02301F84E006A08DE /* NewMessageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

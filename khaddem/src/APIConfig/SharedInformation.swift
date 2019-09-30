@@ -11,27 +11,9 @@ import Foundation
 class SharedInformation {
     
     private static var sharedInformation : SharedInformation? = nil
-    
-    var registerResponse :RegisterResponse? = nil
+
     var loginResponse :LoginResponse? = nil
-    
-    var getOrderResponse : GetOrderResponse? = nil
-    var getOrderArray : [GetOrders]? = nil
-    
-    var placeOrderResponse : PlaceOrderResponse? = nil
-    
-    var getIOTDataResponse : GetIOTDataResponse? = nil
-    var getIotdataArray : [Iotdata]? = nil
-    
-    var setIOTDataResponse : SetIOTDataResponse? = nil
-    
-    var getMilestoneResponse : GetMilestoneResponse? = nil
-    var getMilestoneArray: [GetMilestone]? = nil
-    
-    var setMilestoneResponse : SetMilestoneResponse? = nil
-    
-    var setFarmerResponse : GetFarmerResponse? = nil
-    var getFarmerArray : GetFarmer? = nil
+    var getGroupAllResponse : GetGroupAllResponse? = nil
 
     static func instance() -> SharedInformation {
         if (sharedInformation == nil) {

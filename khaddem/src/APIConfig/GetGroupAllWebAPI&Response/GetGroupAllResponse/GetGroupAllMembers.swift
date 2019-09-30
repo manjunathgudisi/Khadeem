@@ -1,5 +1,5 @@
 /* 
-Copyright (c) 2018 Swift Models Generated from JSON powered by http://www.json4swift.com
+Copyright (c) 2019 Swift Models Generated from JSON powered by http://www.json4swift.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -12,26 +12,38 @@ For support, please feel free to contact me at https://www.linkedin.com/in/syeda
 */
 
 import Foundation
-struct LoginResponse : Codable {
-	let message : String?
-	let success : Bool?
-	let token : String?
-	let user : UserOfLogin?
+struct GetGroupAllMembers : Codable {
+	let deleted : Bool?
+	let _id : String?
+	let username : String?
+	let email : String?
+	let fullname : String?
+	let title : String?
+	let role : GetGroupAllRole?
+	let lastOnline : String?
 
 	enum CodingKeys: String, CodingKey {
 
-		case message = "message"
-		case success = "success"
-		case token = "token"
-		case user = "user"
+		case deleted = "deleted"
+		case _id = "_id"
+		case username = "username"
+		case email = "email"
+		case fullname = "fullname"
+		case title = "title"
+		case role = "role"
+		case lastOnline = "lastOnline"
 	}
 
 	init(from decoder: Decoder) throws {
 		let values = try decoder.container(keyedBy: CodingKeys.self)
-		message = try values.decodeIfPresent(String.self, forKey: .message)
-		success = try values.decodeIfPresent(Bool.self, forKey: .success)
-		token = try values.decodeIfPresent(String.self, forKey: .token)
-		user = try values.decodeIfPresent(UserOfLogin.self, forKey: .user)
+		deleted = try values.decodeIfPresent(Bool.self, forKey: .deleted)
+		_id = try values.decodeIfPresent(String.self, forKey: ._id)
+		username = try values.decodeIfPresent(String.self, forKey: .username)
+		email = try values.decodeIfPresent(String.self, forKey: .email)
+		fullname = try values.decodeIfPresent(String.self, forKey: .fullname)
+		title = try values.decodeIfPresent(String.self, forKey: .title)
+		role = try values.decodeIfPresent(GetGroupAllRole.self, forKey: .role)
+		lastOnline = try values.decodeIfPresent(String.self, forKey: .lastOnline)
 	}
 
 }

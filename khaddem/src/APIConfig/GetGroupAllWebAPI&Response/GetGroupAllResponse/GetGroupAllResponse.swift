@@ -12,20 +12,20 @@ For support, please feel free to contact me at https://www.linkedin.com/in/syeda
 */
 
 import Foundation
-struct GetFarmerResponse : Codable {
-	let farmer : GetFarmer?
-	let status : Int?
+struct GetGroupAllResponse : Codable {
+    
+	let success : Bool?
+	let groups : [GetGroupAllGroups]?
 
 	enum CodingKeys: String, CodingKey {
 
-		case farmer = "farmer"
-		case status = "status"
+		case success = "success"
+		case groups = "groups"
 	}
 
 	init(from decoder: Decoder) throws {
 		let values = try decoder.container(keyedBy: CodingKeys.self)
-		farmer = try values.decodeIfPresent(GetFarmer.self, forKey: .farmer)
-		status = try values.decodeIfPresent(Int.self, forKey: .status)
+		success = try values.decodeIfPresent(Bool.self, forKey: .success)
+		groups = try values.decodeIfPresent([GetGroupAllGroups].self, forKey: .groups)
 	}
-
 }

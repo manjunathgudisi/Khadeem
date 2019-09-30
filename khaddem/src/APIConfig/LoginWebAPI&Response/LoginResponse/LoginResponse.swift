@@ -12,35 +12,23 @@ For support, please feel free to contact me at https://www.linkedin.com/in/syeda
 */
 
 import Foundation
-struct GetOrders : Codable {
-	let expecteDeliveryDate : String?
-	let farmerAddress : String?
-	let finalDeliveryDate : String?
-	let orderPlaceDate : String?
-	let quantity : Int?
-	let spice : String?
-	let status : String?
+struct LoginResponse : Codable {
+	let success : Bool?
+	let accessToken : String?
+	let user : LoginUser?
 
 	enum CodingKeys: String, CodingKey {
 
-		case expecteDeliveryDate = "expecteDeliveryDate"
-		case farmerAddress = "farmerAddress"
-		case finalDeliveryDate = "finalDeliveryDate"
-		case orderPlaceDate = "orderPlaceDate"
-		case quantity = "quantity"
-		case spice = "spice"
-		case status = "status"
+		case success = "success"
+		case accessToken = "accessToken"
+		case user = "user"
 	}
 
 	init(from decoder: Decoder) throws {
 		let values = try decoder.container(keyedBy: CodingKeys.self)
-		expecteDeliveryDate = try values.decodeIfPresent(String.self, forKey: .expecteDeliveryDate)
-		farmerAddress = try values.decodeIfPresent(String.self, forKey: .farmerAddress)
-		finalDeliveryDate = try values.decodeIfPresent(String.self, forKey: .finalDeliveryDate)
-		orderPlaceDate = try values.decodeIfPresent(String.self, forKey: .orderPlaceDate)
-		quantity = try values.decodeIfPresent(Int.self, forKey: .quantity)
-		spice = try values.decodeIfPresent(String.self, forKey: .spice)
-		status = try values.decodeIfPresent(String.self, forKey: .status)
+		success = try values.decodeIfPresent(Bool.self, forKey: .success)
+		accessToken = try values.decodeIfPresent(String.self, forKey: .accessToken)
+		user = try values.decodeIfPresent(LoginUser.self, forKey: .user)
 	}
 
 }

@@ -19,7 +19,7 @@ import UIKit
 class APIInterface {
     
     private static var apiInterface : APIInterface? = nil
-    static let baseURL = "http://103.67.236.83:5020"
+    static let baseURL = "http://157.245.97.110:8118"
     
     static func instance() -> APIInterface {
         
