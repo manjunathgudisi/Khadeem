@@ -1,9 +1,9 @@
 PODS:
-  - IQKeyboardManagerSwift (6.4.2)
-  - NVActivityIndicatorView (4.7.0):
-    - NVActivityIndicatorView/Presenter (= 4.7.0)
-  - NVActivityIndicatorView/Presenter (4.7.0)
-  - SwiftyPickerPopover (6.6.5)
+  - IQKeyboardManagerSwift (6.5.6)
+  - NVActivityIndicatorView (5.1.1):
+    - NVActivityIndicatorView/Base (= 5.1.1)
+  - NVActivityIndicatorView/Base (5.1.1)
+  - SwiftyPickerPopover (6.6.6)
   - TextFieldEffects (1.6.0)
 
 DEPENDENCIES:
@@ -13,18 +13,18 @@ DEPENDENCIES:
   - TextFieldEffects
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - IQKeyboardManagerSwift
     - NVActivityIndicatorView
     - SwiftyPickerPopover
     - TextFieldEffects
 
 SPEC CHECKSUMS:
-  IQKeyboardManagerSwift: 79a3ec200dfb41cb66a89b8575417b5378107c5d
-  NVActivityIndicatorView: b19ddab2576f805cbe0fb2306cba3476e09a1dea
-  SwiftyPickerPopover: f2975fd0233d04c0a8f8d52d09b6f24b882de6fb
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  SwiftyPickerPopover: a402960a6687c911ffcb4e9fb282a1bc61186ab4
   TextFieldEffects: 529b8aff706fb40f82c41c780c0777941a893796
 
 PODFILE CHECKSUM: 1566125e2752d056d993a982519b6eb606a21771
 
-COCOAPODS: 1.7.2
+COCOAPODS: 1.9.3
